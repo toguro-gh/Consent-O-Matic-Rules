@@ -1,0 +1,50 @@
+{
+  "Oglaf": {
+    "detectors": [
+      {
+        "presentMatcher": {
+          "type": "css",
+          "target": {
+            "selector": "button#confirm"
+          }
+        },
+        "displayMatcher": {
+          "type": "css",
+          "target": {
+            "selector": "button#confirm",
+            "displayFilter": true
+          }
+        }
+      }
+    ],
+    "methods": [
+      {
+        "name": "SAVE_AND_EXIT",
+        "action": {
+          "type": "click",
+          "target": {
+            "selector": "button#confirm"
+          }
+        }
+      },
+      {
+        "name": "REJECT_ALL",
+        "action": {
+          "type": "click",
+          "target": {
+            "selector": "button#confirm"
+          }
+        }
+      },
+      {
+        "name": "HIDE_CMP",
+        "action": {
+          "type": "click",
+          "target": {
+            "selector": "button#confirm"
+          }
+        }
+      }
+    ]
+  }
+}
