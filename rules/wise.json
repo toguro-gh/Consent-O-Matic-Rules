@@ -1,0 +1,79 @@
+{
+  "Wise": {
+    "detectors": [
+      {
+        "presentMatcher": {
+          "type": "css",
+          "target": {
+            "selector": "#twcc__mechanism"
+          }
+        },
+        "displayMatcher": {
+          "type": "css",
+          "target": {
+            "selector": "#twcc__mechanism",
+            "displayFilter": true
+          }
+        }
+      }
+    ],
+    "methods": [
+      {
+        "name": "REJECT_ALL",
+        "action": {
+          "type": "list",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "selector": "#twcc__decline-button"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "SAVE_AND_EXIT",
+        "action": {
+          "type": "list",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "selector": "#twcc__decline-button"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "HIDE_CMP",
+        "action": {
+          "type": "list",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "selector": "#twcc__decline-button"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "OPEN_OPTIONS",
+        "action": {
+          "type": "list",
+          "actions": [
+            {
+              "type": "click",
+              "target": {
+                "selector": "#twcc__decline-button"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
