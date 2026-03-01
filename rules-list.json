@@ -1,6 +1,6 @@
 {
   "references": [
-    "https://raw.githubusercontent.com/toguro-gh/Consent-O-Matic-Rules/refs/heads/main/rules/wise.json"
+    "https://raw.githubusercontent.com/toguro-gh/Consent-O-Matic-Rules/refs/heads/main/rules/wise.json",
     "https://raw.githubusercontent.com/toguro-gh/Consent-O-Matic-Rules/refs/heads/main/rules/oglaf.json"
   ]
 }
