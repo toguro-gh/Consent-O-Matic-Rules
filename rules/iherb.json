@@ -1,0 +1,50 @@
+{
+  "iHerb": {
+    "detectors": [
+      {
+        "presentMatcher": {
+          "type": "css",
+          "target": {
+            "selector": "#truste-consent-content"
+          }
+        },
+        "displayMatcher": {
+          "type": "css",
+          "target": {
+            "selector": "#truste-consent-content",
+            "displayFilter": true
+          }
+        }
+      }
+    ],
+    "methods": [
+      {
+        "name": "SAVE_AND_EXIT",
+        "action": {
+          "type": "click",
+          "target": {
+            "selector": "#truste-consent-button"
+          }
+        }
+      },
+      {
+        "name": "REJECT_ALL",
+        "action": {
+          "type": "click",
+          "target": {
+            "selector": "#truste-consent-button"
+          }
+        }
+      },
+      {
+        "name": "HIDE_CMP",
+        "action": {
+          "type": "click",
+          "target": {
+            "selector": "#truste-consent-button"
+          }
+        }
+      }
+    ]
+  }
+}
